@@ -1,26 +1,23 @@
-Grep
-====
+# Grep
 
-Common Flags
-------------
+## Common Flags
 
-Sed
-===
+# Sed
 
-Common Flags
-------------
+## Common Flags
 
-Awk
-===
+## Resources
 
-Idiomatic Awk
--------------
+# Awk
 
-Shell
-=====
+## Idiomatic Awk
 
-Hotkeys
--------
+## Resources
 
-History Expansion
------------------
+# Shell
+
+## Hotkeys
+
+## History Expansion
+
+## Resources
