@@ -51,7 +51,7 @@ $ rm !-2:$
 rm b.txt
 ```
 
-This isn't great if we want to access a range of arguments. Here's some ways to work with rangs:
+This isn't great if we want to access a range of arguments. Here's some ways to work with ranges:
 
 ```bash
 # Create 3 files
