@@ -85,4 +85,10 @@ $ ^add^reset
 git reset file.txt
 ```
 
+### Modifiers
+
+The final piece of the history expansion puzzle. I don't use them terribly frequently.
+
+
 ## Resources
+http://www.gnu.org/software/bash/manual/bashref.html#Event-Designators
