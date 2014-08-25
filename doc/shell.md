@@ -24,7 +24,9 @@ $ history|tail -3
 - Run a command containing a string, such as "stash" with ``!?stash?``
 
 
-#### Accessing Arguments
+#### Accessing Arguments (Word Designators)
+
+Details under [Word Designators](http://www.gnu.org/software/bash/manual/bashref.html#Word-Designators) in the Reference Document.
 
 Building on the above, colons (:) can be used to select a word in the command. 0 is the initial command, and subsequent words are selected by increasing the number.
 
@@ -73,8 +75,19 @@ git reset file.txt
 
 ### Modifiers
 
-The final piece of the history expansion puzzle. I don't use them terribly frequently.
+The final, powerful piece of the history expansion puzzle. Again, under the [Reference Document](http://www.gnu.org/software/bash/manual/bashref.html#Modifiers)
 
+These are tacked onto the end of what we covered above, separated by colons (:).
+
+The most common usage is global substituion.
+
+```bash
+$ echo "Some very foo sentence foo"
+Some very foo sentence foo
+$ !-1:gs/foo/bar/
+echo "Some very bar sentence bar"
+Some very bar sentence bar
+```
 
 ## Resources
 
