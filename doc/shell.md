@@ -11,21 +11,32 @@ Sometimes though, the command you ran is quite a bit in the past, and it can be 
 
 Example: Trying to find the last commmit command we typed, We could type ``Ctrl-rcommitCtrl-a``, then we can edit the command as necessary. Nifty!
 
-Some useful shortcuts for jumping around on the current line:
+Fun fact: Emacs inherited a lot of these keybinds.
 
-Colons can be used to align columns.
+Some useful shortcuts for moving around and editing around on the current line:
 
-| Keystroke        | Action                     |
-|------------------|----------------------------|
-| Ctrl-a           | Go to the start of the line|
-| Ctrl-e           | Go to the end of the line  |
-| Alt-f            | Go forward a word          |
-| Alt-b            | Go backward a word         |
+| Keystroke        | Action                                                 |
+|------------------|--------------------------------------------------------|
+| Ctrl-a           | Go to the start of the line                            |
+| Ctrl-e           | Go to the end of the line                              |
+| Ctrl-k           | Delete from the current position to the end of the line|
+| Ctrl-u           | Delete from the current position to the end of the line|
+| Ctrl-y           | Paste deleted contents                                 |
+| Alt-.            | Last word pf the previous command                      |
+| Alt-t            | Transpose words                                        |
+| Alt-f            | Go forward a word                                      |
+| Alt-b            | Go backward a word                                     |
+| Alt-d            | Delete from the current position to the end of the word|
+| Alt-[cul]        | Change case [Capitalize\|Upper\|Lower]                 |
 
-- Ctrl-a = Go to the start of the line.
-- Ctrl-e = Go to the end of the line.
-- Alt-f = go 
+Useful shortcuts for modifying the state of the terminal:
 
+| Keystroke| Action         |
+|----------|----------------|
+| Ctrl-l   |Clear the screen|
+
+
+## Aliases
 
 ## History
 
