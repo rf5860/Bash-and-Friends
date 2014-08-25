@@ -38,6 +38,14 @@ Useful shortcuts for modifying the state of the terminal:
 
 ## Aliases
 
+Aliases provide a nice way of having shortcuts for frequently used commands. Suppose for example, you're tired of typing ``git add``, you could do:
+```bash
+$ alias ga='git add'
+$ ga "Some files" # Just runs "git add some files" behind the scenes.
+```
+
+## File Navigation
+
 ## History
 
 Most of the details here can be fund under [Event Designators](http://www.gnu.org/software/bash/manual/bashref.html#Event-Designators) in the reference manual.
