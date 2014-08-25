@@ -63,6 +63,19 @@ $ rm !-2:$
 rm b.txt
 ```
 
+This isn't great if we want to access a range of arguments. Here's some ways to work with rangs:
+
+```bash
+# Create 3 files
+$ touch a.txt b.txt c.txt d.txt e.txt
+# Remove from the third file onwards.
+$ rm !!:3*
+rm c.txt d.txt e.txt
+# Remove the first two arguments from two commands ago
+$ rm !-2:1-2
+rm a.txt b.txt
+```
+
 ### History Substitution
 
 - Simplest substitution - replace in last command. Run as  ``^original^replacement`` Example:
