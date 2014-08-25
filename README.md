@@ -91,4 +91,5 @@ The final piece of the history expansion puzzle. I don't use them terribly frequ
 
 
 ## Resources
-http://www.gnu.org/software/bash/manual/bashref.html#Event-Designators
+
+- [Bash Reference Manual](http://www.gnu.org/software/bash/manual/bashref.html)
