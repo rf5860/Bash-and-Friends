@@ -36,6 +36,10 @@ Useful shortcuts for modifying the state of the terminal:
 | Ctrl-l   |Clear the screen|
 
 
+## Bash Profile
+
+If you're using msysgit, you can create a file: ``~/<Username>/.bash_profile``. This file will get executed each term you start Git, so it's a convenient place to save things like Aliases and Functions.
+
 ## Aliases
 
 Aliases provide a nice way of having shortcuts for frequently used commands. Suppose for example, you're tired of typing ``git add``, you could do:
@@ -132,6 +136,8 @@ $ !-1:gs/foo/bar/
 echo "Some very bar sentence bar"
 Some very bar sentence bar
 ```
+
+## Shell Scripting
 
 ## Resources
 
