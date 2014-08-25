@@ -27,7 +27,7 @@ Some useful shortcuts for moving around and editing around on the current line:
 | Alt-f            | Go forward a word                                      |
 | Alt-b            | Go backward a word                                     |
 | Alt-d            | Delete from the current position to the end of the word|
-| Alt-[cul]        | Change case [Capitalize\|Upper\|Lower]                 |
+| Alt-[cul]        | Change case [Capitalize &#124; Upper &#124; Lower]     |
 
 Useful shortcuts for modifying the state of the terminal:
 
