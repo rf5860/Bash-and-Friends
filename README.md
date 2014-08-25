@@ -29,7 +29,6 @@ $ history|tail -3
   567  history|tail -3
 ```
 
-
 ### History Expansion
 
 - Run the last command with ``!!``.
@@ -37,5 +36,14 @@ $ history|tail -3
 - Run the nth last cmmand with ``!-n``.
 - Run the last command starting with a particular string by typing ``!command`` - where command can be replaced with anything.
 - Run a command containing a string, such as "stash" with ``!?stash?``
+
+### History Substitution
+
+- Simplest substitution - replace in last command. Run as  ``^original^replacement`` Example:
+```bash
+$ git add file.txt
+$ ^add^reset
+git reset file.txt
+```
 
 ## Resources
