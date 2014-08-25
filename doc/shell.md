@@ -15,6 +15,15 @@ $ history|tail -3
   567  history|tail -3
 ```
 
+### History Substitution
+
+- Simplest substitution - replace in last command. Run as  ``^original^replacement`` Example:
+```bash
+$ git add file.txt
+$ ^add^reset
+git reset file.txt
+```
+
 ### History Expansion
 
 - Run the last command with ``!!``.
@@ -64,16 +73,7 @@ $ rm !-2:1-2
 rm a.txt b.txt
 ```
 
-### History Substitution
-
-- Simplest substitution - replace in last command. Run as  ``^original^replacement`` Example:
-```bash
-$ git add file.txt
-$ ^add^reset
-git reset file.txt
-```
-
-### Modifiers
+#### Modifiers
 
 The final, powerful piece of the history expansion puzzle. Again, under the [Reference Document](http://www.gnu.org/software/bash/manual/bashref.html#Modifiers)
 
