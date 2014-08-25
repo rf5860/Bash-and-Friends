@@ -4,6 +4,8 @@
 
 ## History
 
+Most of the details here can be fund under [Event Designators](http://www.gnu.org/software/bash/manual/bashref.html#Event-Designators) in the reference manual.
+
 You can view history by running the ``history`` command:
 
 ```bash
