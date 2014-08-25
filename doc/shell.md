@@ -2,6 +2,31 @@
 
 ## Hotkeys
 
+There the basics:
+
+- Up to go back through history
+- Down to go forward through history
+
+Sometimes though, the command you ran is quite a bit in the past, and it can be difficult to track it down. Fortunately, there's  shortcut to help us with that. In particular, Ctrl-r.
+
+Example: Trying to find the last commmit command we typed, We could type ``Ctrl-rcommitCtrl-a``, then we can edit the command as necessary. Nifty!
+
+Some useful shortcuts for jumping around on the current line:
+
+Colons can be used to align columns.
+
+| Keystroke        | Action                     |
+|------------------|----------------------------|
+| Ctrl-a           | Go to the start of the line|
+| Ctrl-e           | Go to the end of the line  |
+| Alt-f            | Go forward a word          |
+| Alt-b            | Go backward a word         |
+
+- Ctrl-a = Go to the start of the line.
+- Ctrl-e = Go to the end of the line.
+- Alt-f = go 
+
+
 ## History
 
 Most of the details here can be fund under [Event Designators](http://www.gnu.org/software/bash/manual/bashref.html#Event-Designators) in the reference manual.
