@@ -8,6 +8,14 @@ These pop up in a lot of programs. Eclipse, Notepad++, Vi, Emacs, Git, etc...
 
 They're basically a way of matching texts that match some regular pattern.
 
+### Characters
+
+Two main types of characters:
+- Literal
+- Special
+
+### Character Classes
+
 ### Examples
 
 ## Common Flags
