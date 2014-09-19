@@ -11,8 +11,19 @@ They're basically a way of matching texts that match some regular pattern.
 ### Characters
 
 Two main types of characters:
-- Literal
-- Special
+
+### Literals
+
+These are your standard things - interpretted as literal text.
+
+```bash
+echo "I like my cat. It's boss.
+I don't like my dog.
+It smells" > text.out
+grep cat text.out # Will match the first line - the text "Cat" is interpretted literally
+```
+
+### Special
 
 ### Character Classes
 
