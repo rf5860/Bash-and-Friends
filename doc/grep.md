@@ -8,6 +8,7 @@ Grep is based on [Regular Expressions](http://en.wikipedia.org/wiki/Regular_expr
 
 |Flag|Usage|
 |----|-----|
+|colour|Colour the match under the specified condition|
 |i|Insensitive|
 |a|Treat binary files as text|
 |I|Ignore binary files|
@@ -24,6 +25,7 @@ Grep is based on [Regular Expressions](http://en.wikipedia.org/wiki/Regular_expr
 |B<N>|Show <N> lines before the match|
 
 ### Pattern Flags
+
 |Flag|Usage|
 |----|-----|
 |E|Use Extended expression|
@@ -33,5 +35,6 @@ Grep is based on [Regular Expressions](http://en.wikipedia.org/wiki/Regular_expr
 
 ## Resources
 
-- [Man Pages](http://linux.die.net/man/1/grep)
-- [GNU Grep Manual](http://www.gnu.org/software/grep/manual/grep.html)
+- [Regular Expressions](http://www.regular-expressions.info/tutorial.html) - Great source of information.
+- [Man Pages](http://linux.die.net/man/1/grep) - Always useful as a reference.
+- [GNU Grep Manual](http://www.gnu.org/software/grep/manual/grep.html) - Like the man pages, but a little more verbose.
