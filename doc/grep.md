@@ -1,8 +1,14 @@
 # Grep
 
-Grep is based on [Regular Expressions](http://en.wikipedia.org/wiki/Regular_expression).
+Grep is based on [Regular Expressions](http://en.wikipedia.org/wiki/Regular_expression). Don't be scared away by the occassionaly dense or theoretical texts!
 
 ## Regular Expressions
+
+These pop up in a lot of programs. Eclipse, Notepad++, Vi, Emacs, Git, etc...
+
+They're basically a way of matching texts that match some regular pattern.
+
+### Examples
 
 ## Common Flags
 
